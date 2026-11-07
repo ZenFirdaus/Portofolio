@@ -10,8 +10,8 @@ import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const NAV_LINKS = [
-  { label: "Works", href: "/works" },
   { label: "About", href: "/about" },
+  { label: "Works", href: "/works" },
   { label: "Experience", href: "/experience" },
   { label: "Contact", href: "/contact" },
 ];
@@ -70,7 +70,7 @@ export function Navbar() {
                   {isActive && (
                     <motion.span
                       layoutId="activeNav"
-                      className="absolute inset-0 rounded-md bg-surface border border-accent/40 shadow-[0_0_14px_rgba(185,242,39,0.12)]"
+                      className="absolute inset-0 rounded-md bg-surface border border-accent/40 shadow-[0_0_14px_rgba(36,87,255,0.12)] dark:shadow-[0_0_14px_rgba(185,242,39,0.12)]"
                       transition={{ type: "spring", stiffness: 380, damping: 30 }}
                     />
                   )}
@@ -88,7 +88,7 @@ export function Navbar() {
 
             <Link
               href="/contact"
-              className="hidden sm:inline-flex items-center justify-center h-9 px-4 rounded-md text-xs font-medium bg-primary text-[#E8EDF2] border border-primary/50 hover:bg-primary-hover hover:border-accent hover:text-accent hover:shadow-[0_0_16px_rgba(185,242,39,0.25)] hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200"
+              className="hidden sm:inline-flex items-center justify-center h-9 px-4 rounded-md text-xs font-medium bg-primary text-[#E8EDF2] border border-primary/50 hover:bg-primary-hover hover:border-accent hover:text-accent hover:shadow-[0_0_16px_rgba(36,87,255,0.25)] dark:hover:shadow-[0_0_16px_rgba(185,242,39,0.25)] hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200"
             >
               Get in Touch
             </Link>
@@ -96,7 +96,7 @@ export function Navbar() {
             {/* Mobile Hamburger Toggle */}
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="md:hidden w-9 h-9 flex items-center justify-center rounded-md border border-border bg-surface text-text-primary hover:border-accent hover:text-accent hover:shadow-[0_0_12px_rgba(185,242,39,0.2)] cursor-pointer transition-all duration-200"
+              className="md:hidden w-9 h-9 flex items-center justify-center rounded-md border border-border bg-surface text-text-primary hover:border-accent hover:text-accent hover:shadow-[0_0_12px_rgba(36,87,255,0.2)] dark:hover:shadow-[0_0_12px_rgba(185,242,39,0.2)] cursor-pointer transition-all duration-200"
               aria-label="Toggle navigation menu"
             >
               {isOpen ? <X className="w-4 h-4" /> : <Menu className="w-4 h-4" />}
@@ -139,7 +139,7 @@ export function Navbar() {
               <Link
                 href="/contact"
                 onClick={() => setIsOpen(false)}
-                className="mt-2 flex items-center justify-center h-10 w-full rounded-md bg-primary text-[#E8EDF2] border border-primary/50 hover:border-accent hover:text-accent hover:shadow-[0_0_16px_rgba(185,242,39,0.25)] text-xs font-medium transition-all duration-200"
+                className="mt-2 flex items-center justify-center h-10 w-full rounded-md bg-primary text-[#E8EDF2] border border-primary/50 hover:border-accent hover:text-accent hover:shadow-[0_0_16px_rgba(36,87,255,0.25)] dark:hover:shadow-[0_0_16px_rgba(185,242,39,0.25)] text-xs font-medium transition-all duration-200"
               >
                 Get in Touch
               </Link>

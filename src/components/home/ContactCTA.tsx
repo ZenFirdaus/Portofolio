@@ -40,7 +40,7 @@ export function ContactCTA() {
 
             <button
               onClick={handleCopy}
-              className="h-11 md:h-12 px-5 rounded-md border border-border bg-surface hover:border-accent hover:text-accent hover:bg-accent/10 hover:shadow-[0_4px_20px_rgba(185,242,39,0.18)] hover:-translate-y-0.5 active:translate-y-0 text-sm font-sans text-text-primary flex items-center gap-2 transition-all duration-200 cursor-pointer group"
+              className="h-11 md:h-12 px-5 rounded-md border border-border bg-surface hover:border-accent hover:text-accent hover:bg-accent/10 hover:shadow-[0_4px_20px_rgba(36,87,255,0.15)] dark:hover:shadow-[0_4px_20px_rgba(185,242,39,0.18)] hover:-translate-y-0.5 active:translate-y-0 text-sm font-sans text-text-primary flex items-center gap-2 transition-all duration-200 cursor-pointer group"
               aria-label="Copy email address"
             >
               {copied ? (

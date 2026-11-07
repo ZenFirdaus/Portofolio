@@ -42,7 +42,7 @@ export function FeaturedWorks() {
         <FadeInStagger className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {featuredProjects.map((project) => (
             <FadeInStaggerItem key={project.id}>
-              <div className="group flex flex-col justify-between h-full rounded-lg border border-border bg-surface overflow-hidden transition-all duration-300 ease-out hover:border-accent/60 hover:-translate-y-1 hover:shadow-[0_8px_30px_rgba(185,242,39,0.1)]">
+              <div className="group flex flex-col justify-between h-full rounded-lg border border-border bg-surface overflow-hidden transition-all duration-300 ease-out hover:border-accent/60 hover:-translate-y-1 hover:shadow-[0_8px_30px_rgba(36,87,255,0.08)] dark:hover:shadow-[0_8px_30px_rgba(185,242,39,0.1)]">
                 <Link
                   href={`/works/${project.slug}`}
                   className="block relative aspect-[16/10] bg-elevated overflow-hidden border-b border-border"

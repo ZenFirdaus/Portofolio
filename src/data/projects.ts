@@ -6,7 +6,7 @@ export const projectsData: Project[] = [
     slug: "foodie",
     name: "FOODIE — Smart Culinary & Food Discovery",
     category: "Mobile Development",
-    year: "2024",
+    year: "2026",
     role: "Mobile Developer & System Analyst",
     shortDescription:
       "Aplikasi mobile berbasis Flutter untuk pencarian kuliner cerdas dengan LBS, sensor shake, dan integrasi Supabase.",
@@ -96,7 +96,7 @@ export const projectsData: Project[] = [
     slug: "pixeliq",
     name: "PIXELIQ — AI-Powered Design Analysis",
     category: "Web Development",
-    year: "2024",
+    year: "2026",
     role: "Backend & AI Developer, UI Designer",
     shortDescription:
       "Platform analisis desain berbasis FastAPI, OpenCV, dan Google Gemini AI untuk ekstraksi palet warna dan tipografi.",
@@ -166,7 +166,7 @@ export const projectsData: Project[] = [
     slug: "skpp-simudah",
     name: "SKPP / SIMUDAH — Sistem Kepegawaian Laravel",
     category: "Web Development",
-    year: "2024",
+    year: "2026",
     role: "Full-Stack Laravel Developer, System Analyst",
     shortDescription:
       "Sistem informasi pengelolaan pengajuan dan persetujuan administrasi kepegawaian SKPP berbasis Laravel 11.",
@@ -236,7 +236,7 @@ export const projectsData: Project[] = [
     slug: "cinematch",
     name: "CineMatch — Movie Recommendation Engine",
     category: "Web Development",
-    year: "2023",
+    year: "2026",
     role: "Full-Stack Python Developer & ML Engineer",
     shortDescription:
       "Sistem rekomendasi film berbasis Python Flask dan Scikit-Learn menggunakan dataset MovieLens dan Content-Based Filtering.",
@@ -306,7 +306,7 @@ export const projectsData: Project[] = [
     slug: "wedding-planner",
     name: "Wedding Planner — Flutter Mobile App",
     category: "Mobile Development",
-    year: "2024",
+    year: "2026",
     role: "Mobile Developer & Database Architect",
     shortDescription:
       "Aplikasi mobile perencanaan pernikahan berbasis Flutter dan Dart dengan integrasi PostgreSQL dan RESTful API PHP.",
@@ -376,7 +376,7 @@ export const projectsData: Project[] = [
     slug: "petadopt",
     name: "PetAdopt — Animal Adoption Web Platform",
     category: "Web Development",
-    year: "2024",
+    year: "2026",
     role: "Full-Stack Web Developer",
     shortDescription:
       "Platform web adopsi hewan peliharaan berbasis arsitektur MVC PHP Native dan basis data MySQL.",
@@ -461,7 +461,7 @@ export const projectsData: Project[] = [
     slug: "healthcheck",
     name: "HealthCheck — Digital Health Screening Platform",
     category: "Web Development",
-    year: "2024",
+    year: "2025",
     role: "Full-Stack Web Developer & UI Designer",
     shortDescription:
       "Platform pemeriksaan kesehatan mandiri digital dengan kalkulator BMI, BMR, skrining jantung, dan kesehatan mental.",

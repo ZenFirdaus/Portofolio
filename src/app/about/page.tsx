@@ -52,7 +52,7 @@ export default function AboutPage() {
                   href={personalInfo.socials[0].href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="p-2.5 rounded-md border border-border hover:border-accent hover:text-accent hover:bg-accent/10 hover:shadow-[0_0_16px_rgba(185,242,39,0.2)] hover:-translate-y-0.5 transition-all duration-200"
+                  className="p-2.5 rounded-md border border-border hover:border-accent hover:text-accent hover:bg-accent/10 hover:shadow-[0_0_16px_rgba(36,87,255,0.18)] dark:hover:shadow-[0_0_16px_rgba(185,242,39,0.2)] hover:-translate-y-0.5 transition-all duration-200"
                   aria-label="GitHub"
                 >
                   <GithubIcon className="w-4 h-4" />
@@ -61,7 +61,7 @@ export default function AboutPage() {
                   href={personalInfo.socials[1].href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="p-2.5 rounded-md border border-border hover:border-accent hover:text-accent hover:bg-accent/10 hover:shadow-[0_0_16px_rgba(185,242,39,0.2)] hover:-translate-y-0.5 transition-all duration-200"
+                  className="p-2.5 rounded-md border border-border hover:border-accent hover:text-accent hover:bg-accent/10 hover:shadow-[0_0_16px_rgba(36,87,255,0.18)] dark:hover:shadow-[0_0_16px_rgba(185,242,39,0.2)] hover:-translate-y-0.5 transition-all duration-200"
                   aria-label="LinkedIn"
                 >
                   <LinkedinIcon className="w-4 h-4" />
@@ -70,7 +70,7 @@ export default function AboutPage() {
                   href={personalInfo.socials[2].href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="p-2.5 rounded-md border border-border hover:border-accent hover:text-accent hover:bg-accent/10 hover:shadow-[0_0_16px_rgba(185,242,39,0.2)] hover:-translate-y-0.5 transition-all duration-200"
+                  className="p-2.5 rounded-md border border-border hover:border-accent hover:text-accent hover:bg-accent/10 hover:shadow-[0_0_16px_rgba(36,87,255,0.18)] dark:hover:shadow-[0_0_16px_rgba(185,242,39,0.2)] hover:-translate-y-0.5 transition-all duration-200"
                   aria-label="Figma"
                 >
                   <FigmaIcon className="w-4 h-4" />
@@ -146,7 +146,7 @@ export default function AboutPage() {
           <FadeInStagger className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {skillsData.map((group, idx) => (
               <FadeInStaggerItem key={idx}>
-                <Card className="space-y-4 p-6 h-full transition-all duration-200 hover:border-accent/60 hover:-translate-y-0.5 hover:shadow-[0_4px_20px_rgba(185,242,39,0.06)]">
+                <Card className="space-y-4 p-6 h-full transition-all duration-200 hover:border-accent/60 hover:-translate-y-0.5 hover:shadow-[0_4px_20px_rgba(36,87,255,0.06)] dark:hover:shadow-[0_4px_20px_rgba(185,242,39,0.06)]">
                   <h4 className="font-heading font-bold text-base text-text-primary pb-2 border-b border-border">
                     {group.category}
                   </h4>

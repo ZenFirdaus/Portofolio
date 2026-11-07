@@ -51,14 +51,14 @@ export default function WorksPage() {
                 className={cn(
                   "relative px-3.5 py-1.5 rounded-md text-xs font-sans transition-all duration-200 cursor-pointer select-none",
                   isSelected
-                    ? "text-[#101820] font-semibold"
+                    ? "text-white dark:text-[#101820] font-semibold"
                     : "text-text-secondary hover:text-accent hover:border-accent/60 border border-border bg-surface hover:-translate-y-0.5"
                 )}
               >
                 {isSelected && (
                   <motion.span
                     layoutId="activeCategory"
-                    className="absolute inset-0 rounded-md bg-accent shadow-[0_0_16px_rgba(185,242,39,0.25)]"
+                    className="absolute inset-0 rounded-md bg-accent shadow-[0_0_16px_rgba(36,87,255,0.25)] dark:shadow-[0_0_16px_rgba(185,242,39,0.25)]"
                     transition={{ type: "spring", stiffness: 400, damping: 32 }}
                   />
                 )}
@@ -82,7 +82,7 @@ export default function WorksPage() {
                 animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0, scale: 0.96 }}
                 transition={{ duration: 0.3, ease: [0.16, 1, 0.3, 1] }}
-                className="group flex flex-col justify-between rounded-lg border border-border bg-surface overflow-hidden transition-all duration-300 ease-out hover:border-accent/60 hover:-translate-y-1 hover:shadow-[0_8px_30px_rgba(185,242,39,0.1)]"
+                className="group flex flex-col justify-between rounded-lg border border-border bg-surface overflow-hidden transition-all duration-300 ease-out hover:border-accent/60 hover:-translate-y-1 hover:shadow-[0_8px_30px_rgba(36,87,255,0.08)] dark:hover:shadow-[0_8px_30px_rgba(185,242,39,0.1)]"
               >
                 <Link
                   href={`/works/${project.slug}`}

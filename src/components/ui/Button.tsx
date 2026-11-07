@@ -26,9 +26,9 @@ export function Button({
     primary:
       "bg-primary text-[#E8EDF2] border border-primary/40 hover:bg-primary-hover hover:border-accent/50 hover:shadow-[0_4px_20px_rgba(36,87,255,0.3)]",
     accent:
-      "bg-accent text-[#101820] hover:bg-accent-muted hover:shadow-[0_4px_20px_rgba(185,242,39,0.3)] font-semibold border border-accent",
+      "bg-accent text-white dark:text-[#101820] hover:bg-accent-muted shadow-[0_4px_20px_rgba(36,87,255,0.25)] dark:shadow-[0_4px_20px_rgba(185,242,39,0.3)] font-semibold border border-accent",
     outline:
-      "bg-transparent text-text-primary border border-border hover:border-accent hover:text-accent hover:bg-accent/10 hover:shadow-[0_4px_20px_rgba(185,242,39,0.18)]",
+      "bg-transparent text-text-primary border border-border hover:border-accent hover:text-accent hover:bg-accent/10 hover:shadow-[0_4px_20px_rgba(36,87,255,0.15)] dark:hover:shadow-[0_4px_20px_rgba(185,242,39,0.18)]",
     ghost:
       "bg-transparent text-text-secondary hover:text-accent hover:bg-accent/10 hover:-translate-y-0.5",
   };

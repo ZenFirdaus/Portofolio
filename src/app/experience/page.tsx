@@ -43,14 +43,14 @@ export default function ExperiencePage() {
                 className={cn(
                   "relative px-3.5 py-1.5 rounded-md text-xs font-sans transition-all duration-200 cursor-pointer select-none",
                   isSelected
-                    ? "text-[#101820] font-semibold"
+                    ? "text-white dark:text-[#101820] font-semibold"
                     : "text-text-secondary hover:text-accent hover:border-accent/60 border border-border bg-surface hover:-translate-y-0.5"
                 )}
               >
                 {isSelected && (
                   <motion.span
                     layoutId="activeExpFilter"
-                    className="absolute inset-0 rounded-md bg-accent shadow-[0_0_16px_rgba(185,242,39,0.25)]"
+                    className="absolute inset-0 rounded-md bg-accent shadow-[0_0_16px_rgba(36,87,255,0.25)] dark:shadow-[0_0_16px_rgba(185,242,39,0.25)]"
                     transition={{ type: "spring", stiffness: 400, damping: 32 }}
                   />
                 )}
@@ -73,7 +73,7 @@ export default function ExperiencePage() {
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, scale: 0.98 }}
                 transition={{ duration: 0.25, ease: [0.16, 1, 0.3, 1] }}
-                className="p-6 md:p-8 rounded-lg border border-border bg-surface space-y-4 transition-all duration-300 hover:border-accent/60 hover:-translate-y-0.5 hover:shadow-[0_8px_30px_rgba(185,242,39,0.08)]"
+                className="p-6 md:p-8 rounded-lg border border-border bg-surface space-y-4 transition-all duration-300 hover:border-accent/60 hover:-translate-y-0.5 hover:shadow-[0_8px_30px_rgba(36,87,255,0.08)] dark:hover:shadow-[0_8px_30px_rgba(185,242,39,0.08)]"
               >
                 <div className="flex flex-wrap items-start justify-between gap-3">
                   <div className="space-y-1">
@@ -132,7 +132,7 @@ export default function ExperiencePage() {
             <FadeInStagger className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {achievementsData.map((ach) => (
                 <FadeInStaggerItem key={ach.id}>
-                  <div className="p-6 rounded-lg border border-border bg-surface space-y-2.5 transition-all duration-300 hover:border-accent/60 hover:-translate-y-0.5 hover:shadow-[0_8px_30px_rgba(185,242,39,0.08)] h-full flex flex-col justify-between">
+                  <div className="p-6 rounded-lg border border-border bg-surface space-y-2.5 transition-all duration-300 hover:border-accent/60 hover:-translate-y-0.5 hover:shadow-[0_8px_30px_rgba(36,87,255,0.08)] dark:hover:shadow-[0_8px_30px_rgba(185,242,39,0.08)] h-full flex flex-col justify-between">
                     <div className="space-y-1.5">
                       <div className="flex items-center justify-between text-xs text-text-secondary">
                         <span className="flex items-center gap-1.5">

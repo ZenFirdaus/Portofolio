@@ -9,6 +9,7 @@
   --primary-hover: #1b44cb;
   --accent: #B9F227;
   --accent-muted: #9dd11d;
+  --accent-contrast: #101820;
   --text-primary: #E8EDF2;
   --text-secondary: #9AA8B5;
   --border: #23313f;
@@ -21,8 +22,9 @@
   --elevated: #E9EEE8;
   --primary: #2457FF;
   --primary-hover: #1b44cb;
-  --accent: #A8DF16;
-  --accent-muted: #8ec30f;
+  --accent: #2457FF;
+  --accent-muted: #1b44cb;
+  --accent-contrast: #FFFFFF;
   --text-primary: #17212B;
   --text-secondary: #5D6872;
   --border: #E0E6E1;
@@ -37,6 +39,7 @@
   --color-primary-hover: var(--primary-hover);
   --color-accent: var(--accent);
   --color-accent-muted: var(--accent-muted);
+  --color-accent-contrast: var(--accent-contrast);
   --color-text-primary: var(--text-primary);
   --color-text-secondary: var(--text-secondary);
   --color-border: var(--border);
@@ -72,7 +75,7 @@ body {
 
 ::selection {
   background-color: var(--accent);
-  color: #101820;
+  color: var(--accent-contrast);
 }
 
 @media (prefers-reduced-motion: reduce) {

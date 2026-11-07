@@ -39,7 +39,7 @@ export function ExperiencePreview() {
         <FadeInStagger className="space-y-4">
           {recentExperience.map((item) => (
             <FadeInStaggerItem key={item.id}>
-              <div className="p-6 rounded-lg border border-border bg-surface flex flex-col md:flex-row md:items-center justify-between gap-4 transition-all duration-300 hover:border-accent/60 hover:-translate-y-0.5 hover:shadow-[0_8px_30px_rgba(185,242,39,0.08)]">
+              <div className="p-6 rounded-lg border border-border bg-surface flex flex-col md:flex-row md:items-center justify-between gap-4 transition-all duration-300 hover:border-accent/60 hover:-translate-y-0.5 hover:shadow-[0_8px_30px_rgba(36,87,255,0.08)] dark:hover:shadow-[0_8px_30px_rgba(185,242,39,0.08)]">
                 <div className="space-y-1">
                   <div className="flex items-center gap-2.5">
                     <h3 className="font-heading font-bold text-base md:text-lg text-text-primary">

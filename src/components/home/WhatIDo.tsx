@@ -53,7 +53,7 @@ export function WhatIDo() {
               <FadeInStaggerItem key={index}>
                 <Card
                   interactive
-                  className="space-y-4 p-6 h-full flex flex-col justify-between group transition-all duration-300 hover:-translate-y-1 hover:border-accent/60 hover:shadow-[0_8px_30px_rgba(185,242,39,0.08)]"
+                  className="space-y-4 p-6 h-full flex flex-col justify-between group transition-all duration-300 hover:-translate-y-1 hover:border-accent/60 hover:shadow-[0_8px_30px_rgba(36,87,255,0.08)] dark:hover:shadow-[0_8px_30px_rgba(185,242,39,0.08)]"
                 >
                   <div className="space-y-4">
                     <div className="w-10 h-10 rounded-md bg-elevated border border-border flex items-center justify-center text-accent group-hover:scale-105 group-hover:border-accent transition-all duration-200">

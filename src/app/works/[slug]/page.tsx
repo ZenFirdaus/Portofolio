@@ -241,7 +241,7 @@ export default async function ProjectDetailPage({ params }: PageProps) {
                   {project.process.map((step, idx) => (
                     <div
                       key={idx}
-                      className="p-6 rounded-lg border border-border bg-surface space-y-2 transition-all duration-200 hover:border-accent/50 hover:-translate-y-0.5 hover:shadow-[0_4px_20px_rgba(185,242,39,0.06)]"
+                      className="p-6 rounded-lg border border-border bg-surface space-y-2 transition-all duration-200 hover:border-accent/50 hover:-translate-y-0.5 hover:shadow-[0_4px_20px_rgba(36,87,255,0.06)] dark:hover:shadow-[0_4px_20px_rgba(185,242,39,0.06)]"
                     >
                       <h3 className="font-heading font-bold text-base text-text-primary">
                         {step.title}
@@ -271,7 +271,7 @@ export default async function ProjectDetailPage({ params }: PageProps) {
                   {project.gallery.map((item, idx) => (
                     <figure
                       key={idx}
-                      className="group rounded-lg border border-border bg-surface overflow-hidden space-y-3 transition-all duration-300 hover:border-accent/60 hover:shadow-[0_8px_30px_rgba(185,242,39,0.1)]"
+                      className="group rounded-lg border border-border bg-surface overflow-hidden space-y-3 transition-all duration-300 hover:border-accent/60 hover:shadow-[0_8px_30px_rgba(36,87,255,0.08)] dark:hover:shadow-[0_8px_30px_rgba(185,242,39,0.1)]"
                     >
                       <div className="relative aspect-[16/10] bg-elevated overflow-hidden">
                         <Image
@@ -401,7 +401,7 @@ export default async function ProjectDetailPage({ params }: PageProps) {
             {prevProject ? (
               <Link
                 href={`/works/${prevProject.slug}`}
-                className="p-6 rounded-lg border border-border bg-surface hover:border-accent/70 hover:shadow-[0_4px_24px_rgba(185,242,39,0.12)] hover:-translate-y-0.5 transition-all duration-200 space-y-1 text-left group"
+                className="p-6 rounded-lg border border-border bg-surface hover:border-accent/70 hover:shadow-[0_4px_24px_rgba(36,87,255,0.1)] dark:hover:shadow-[0_4px_24px_rgba(185,242,39,0.12)] hover:-translate-y-0.5 transition-all duration-200 space-y-1 text-left group"
               >
                 <span className="text-xs text-text-secondary inline-flex items-center gap-1 group-hover:text-accent transition-colors duration-200">
                   <ArrowLeft className="w-3.5 h-3.5 group-hover:-translate-x-1 transition-transform duration-200" /> Proyek Sebelumnya
@@ -417,7 +417,7 @@ export default async function ProjectDetailPage({ params }: PageProps) {
             {nextProject ? (
               <Link
                 href={`/works/${nextProject.slug}`}
-                className="p-6 rounded-lg border border-border bg-surface hover:border-accent/70 hover:shadow-[0_4px_24px_rgba(185,242,39,0.12)] hover:-translate-y-0.5 transition-all duration-200 space-y-1 text-right group sm:col-start-2"
+                className="p-6 rounded-lg border border-border bg-surface hover:border-accent/70 hover:shadow-[0_4px_24px_rgba(36,87,255,0.1)] dark:hover:shadow-[0_4px_24px_rgba(185,242,39,0.12)] hover:-translate-y-0.5 transition-all duration-200 space-y-1 text-right group sm:col-start-2"
               >
                 <span className="text-xs text-text-secondary inline-flex items-center gap-1 justify-end group-hover:text-accent transition-colors duration-200">
                   Proyek Selanjutnya <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform duration-200" />

@@ -128,7 +128,7 @@ export default function ContactPage() {
                     href={personalInfo.socials[0].href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="p-2.5 rounded-md border border-border hover:border-accent hover:text-accent hover:bg-accent/10 hover:shadow-[0_0_16px_rgba(185,242,39,0.2)] hover:-translate-y-0.5 text-text-secondary transition-all duration-200"
+                    className="p-2.5 rounded-md border border-border hover:border-accent hover:text-accent hover:bg-accent/10 hover:shadow-[0_0_16px_rgba(36,87,255,0.18)] dark:hover:shadow-[0_0_16px_rgba(185,242,39,0.2)] hover:-translate-y-0.5 text-text-secondary transition-all duration-200"
                     aria-label="GitHub"
                   >
                     <GithubIcon className="w-4 h-4" />
@@ -137,7 +137,7 @@ export default function ContactPage() {
                     href={personalInfo.socials[1].href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="p-2.5 rounded-md border border-border hover:border-accent hover:text-accent hover:bg-accent/10 hover:shadow-[0_0_16px_rgba(185,242,39,0.2)] hover:-translate-y-0.5 text-text-secondary transition-all duration-200"
+                    className="p-2.5 rounded-md border border-border hover:border-accent hover:text-accent hover:bg-accent/10 hover:shadow-[0_0_16px_rgba(36,87,255,0.18)] dark:hover:shadow-[0_0_16px_rgba(185,242,39,0.2)] hover:-translate-y-0.5 text-text-secondary transition-all duration-200"
                     aria-label="LinkedIn"
                   >
                     <LinkedinIcon className="w-4 h-4" />
@@ -146,7 +146,7 @@ export default function ContactPage() {
                     href={personalInfo.socials[2].href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="p-2.5 rounded-md border border-border hover:border-accent hover:text-accent hover:bg-accent/10 hover:shadow-[0_0_16px_rgba(185,242,39,0.2)] hover:-translate-y-0.5 text-text-secondary transition-all duration-200"
+                    className="p-2.5 rounded-md border border-border hover:border-accent hover:text-accent hover:bg-accent/10 hover:shadow-[0_0_16px_rgba(36,87,255,0.18)] dark:hover:shadow-[0_0_16px_rgba(185,242,39,0.2)] hover:-translate-y-0.5 text-text-secondary transition-all duration-200"
                     aria-label="Figma"
                   >
                     <FigmaIcon className="w-4 h-4" />
@@ -235,7 +235,7 @@ export default function ContactPage() {
 
                     <button
                       type="submit"
-                      className="w-full h-11 rounded-md bg-primary text-[#E8EDF2] border border-primary/50 text-sm font-medium hover:bg-primary-hover hover:border-accent hover:text-accent hover:shadow-[0_4px_20px_rgba(185,242,39,0.25)] hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 flex items-center justify-center gap-2 cursor-pointer group"
+                      className="w-full h-11 rounded-md bg-primary text-[#E8EDF2] border border-primary/50 text-sm font-medium hover:bg-primary-hover hover:border-accent hover:text-accent hover:shadow-[0_4px_20px_rgba(36,87,255,0.25)] dark:hover:shadow-[0_4px_20px_rgba(185,242,39,0.25)] hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 flex items-center justify-center gap-2 cursor-pointer group"
                     >
                       <span>Send Message</span>
                       <Send className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform duration-200" />

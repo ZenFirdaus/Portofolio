@@ -32,16 +32,16 @@ export function Footer() {
           {/* Quick links & socials */}
           <div className="flex flex-wrap items-center gap-6 sm:gap-8 text-sm font-sans">
             <Link
-              href="/works"
-              className="text-text-secondary hover:text-accent hover:-translate-y-0.5 transition-all duration-200"
-            >
-              Works
-            </Link>
-            <Link
               href="/about"
               className="text-text-secondary hover:text-accent hover:-translate-y-0.5 transition-all duration-200"
             >
               About
+            </Link>
+            <Link
+              href="/works"
+              className="text-text-secondary hover:text-accent hover:-translate-y-0.5 transition-all duration-200"
+            >
+              Works
             </Link>
             <Link
               href="/experience"

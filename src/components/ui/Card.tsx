@@ -26,7 +26,7 @@ export function Card({
         "rounded-lg p-6 transition-all duration-300 ease-out",
         variants[variant],
         interactive &&
-          "hover:border-accent/60 hover:-translate-y-1 hover:shadow-[0_8px_30px_rgba(185,242,39,0.08)]",
+          "hover:border-accent/60 hover:-translate-y-1 hover:shadow-[0_8px_30px_rgba(36,87,255,0.08)] dark:hover:shadow-[0_8px_30px_rgba(185,242,39,0.08)]",
         className
       )}
       {...props}
